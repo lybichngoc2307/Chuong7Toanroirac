@@ -14,7 +14,7 @@ int main()
 	fscanf(in,"%d",&m);
 	
 	cout<<"CHUYEN TU DANH SACH CANH SANG MA TRAN KE\n"<<n<<" "<<m<<endl;
-	fprintf(out,"CHUYEN TU DANH SACH CANH input1_2 SANG MA TRAN KE output1_2\n");
+	//fprintf(out,"CHUYEN TU DANH SACH CANH input1_2 SANG MA TRAN KE output1_2\n");
 	fprintf(out,"%d ",n);
 	fprintf(out,"%d\n",m);
 	//gan mang ban dau bang 0
@@ -48,7 +48,7 @@ int main()
 	//in ra va ghi vao file ds ke
 	int t[100];
 	cout<<"\nCHUYEN TU DANH SACH CANH SANG DS KE\n"<<n<<" "<<m<<endl;;
-	fprintf(out,"\nCHUYEN TU DANH SACH CANH input1_2 SANG DANH SACH KE output1_2\n");
+	//fprintf(out,"\nCHUYEN TU DANH SACH CANH input1_2 SANG DANH SACH KE output1_2\n");
 	fprintf(out,"%d ",n);
 	fprintf(out,"%d\n",m);
 	for(int i=1;i<=n;i++)

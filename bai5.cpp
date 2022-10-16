@@ -86,7 +86,7 @@ int main()
 			}
 		}
 	}	
-	fprintf(out2,"CHUYEN TU MA TRAN KE input2 SANG DANH SACH CANH input2_2");
+	//fprintf(out2,"CHUYEN TU MA TRAN KE input2 SANG DANH SACH CANH input2_2");
 	fclose(in);
 	fclose(out1);
 	fclose(out2);

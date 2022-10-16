@@ -56,7 +56,7 @@ int main()
 			}
 		}
 	}
-	fprintf(out2,"CHUYEN TU MA TRAN KE input1 SANG DANH SACH CANH input1_2");
+	//fprintf(out2,"CHUYEN TU MA TRAN KE input1 SANG DANH SACH CANH input1_2");
 	
 	cout<<"--------------------------------------------\n";
 	int t[10];

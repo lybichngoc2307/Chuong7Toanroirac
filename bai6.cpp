@@ -36,14 +36,14 @@ FILE *in,*out;
  		
 	}
 	//in ra ma tran ke va ghi vao file
-	fprintf(out,"CHUYEN TU DANH SACH KE input2_1 SANG MA TRAN KE output2_1\n");
+	//fprintf(out,"CHUYEN TU DANH SACH KE input2_1 SANG MA TRAN KE output2_1\n");
 	fprintf(out,"%d\n",n);
 	printf("%d\n",n);
 	for(int i = 1; i <= n;i++)
 	{
 		for(int j = 1;j <= n;j++)
 		{
-			fprintf(out,"%d ",a[i][j]);
+			fprintf(out,"\t%d ",a[i][j]);
 			cout<<a[i][j]<<" ";
 			
 		}
@@ -51,16 +51,17 @@ FILE *in,*out;
 		cout<<endl;
 	}
 	//in ra ds canh va ghi vao file
-		fprintf(out,"\nCHUYEN TU DANH SACH KE input1_1 SANG DANH SACH CANH output2_1\n");
-		printf("\nCHUYEN TU DANH SACH KE input1_1 SANG DANH SACH CANH output2_1\n");
-		for(int i = 1; i<=n;i++)
+		//fprintf(out,"\nCHUYEN TU DANH SACH KE input1_1 SANG DANH SACH CANH output2_1\n");
+	fprintf(out,"%d\n",n);
+	printf("\nCHUYEN TU DANH SACH KE input1_1 SANG DANH SACH CANH output2_1\n");
+	for(int i = 1; i<=n;i++)
 	{
 		for(int j = 1;j<=n;j++)
 		{
 			if(a[i][j] == 1)
 			{
 				
-				fprintf(out,"%d\t%d\n",i,j);
+				fprintf(out,"\t%d\t%d\n",i,j);
 				printf("%d\t%d\n",i,j);
 			}
 		}
