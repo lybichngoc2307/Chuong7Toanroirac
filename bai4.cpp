@@ -8,8 +8,8 @@ int main()
 	FILE *in, *out;
 	int n, m,x,y,s;
 	int a[10][10];
-	in = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\input1_2.txt", "r");
-	out = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\output1_2.txt", "w");
+	in = fopen("input1_2.txt", "r");
+	out = fopen("output1_2.txt", "w");
 	fscanf(in,"%d",&n);
 	fscanf(in,"%d",&m);
 	

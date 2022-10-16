@@ -10,8 +10,8 @@ int main()
 	FILE *in,*out;
 	int  m,x,y,d,s;
 	int a[100][100];
-	in = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\input1_1.txt", "r");
-	out = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\output1_1.txt", "w");
+	in = fopen("input1_1.txt", "r");
+	out = fopen("output1_1.txt", "w");
 	int n = fgetc(in) - '0';
 	//gan mang ban dau bang 0
 	for(int i = 1; i <= n;i++)

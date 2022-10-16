@@ -18,9 +18,9 @@ int main()
 	FILE *in, *out1, *out2;
 	int n,sum;
 	int a[10][10];
-	in = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\input1.txt", "r");
-	out1 = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\input1_1.txt", "w");
-	out2 = fopen("D:\\BICHNGOC\\Chuong 7 toan roi rac\\input1_2.txt", "w");
+	in = fopen("input1.txt", "r");
+	out1 = fopen("input1_1.txt", "w");
+	out2 = fopen("input1_2.txt", "w");
 
 	fscanf(in,"%d",&n);
 	for(int i = 0; i<n;i++){
